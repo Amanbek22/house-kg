@@ -1,6 +1,20 @@
 .wrapper {
   min-width: 300px;
   min-height: 300px;
+  max-width: 400px;
   border-radius: 10px;
   box-shadow: 2px 3px 11px -4px;
+  overflow: hidden;
+}
+
+
+.imgWrapper {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.imgWrapper > img {
+  width: 100%;
+  object-fit: contain;
 }
